@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url('./../images/uwp3782705.jpeg');
+}
+
+nav {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+nav > span{
+  color: red;
+  font-size: 1.6rem;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.267);
+  width: 70%;
+  margin: 30px auto ;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input,textarea,button{
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.479);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+  font-size: 1rem;
+}
+
+button:hover{
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+
+.container > p{
+  text-align: center;
+  font-family: 'Alfa Slab One', serif;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+.taskbar{
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.taskbar > div{
+  width: 100%;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.taskbar > div > span{
+  color: rgba(0, 0, 0, 0.658);
+}
+
+.taskbar > button{
+  background-color: rgba(220, 20, 60, 0.712);
+  display: flex;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-right: 1.5%
+}
+
+.taskbar > button:hover{
+  background-color: crimson;
+}
+
+/* * {
+  border: 1px solid red;
+} */
