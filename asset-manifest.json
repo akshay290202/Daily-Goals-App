@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Daily-Goals-App/static/css/main.625204bc.css",
+    "main.js": "/Daily-Goals-App/static/js/main.efb423b3.js",
+    "static/media/uwp3782705.jpeg": "/Daily-Goals-App/static/media/uwp3782705.6ee743db7408c5558ff8.jpeg",
+    "index.html": "/Daily-Goals-App/index.html",
+    "main.625204bc.css.map": "/Daily-Goals-App/static/css/main.625204bc.css.map",
+    "main.efb423b3.js.map": "/Daily-Goals-App/static/js/main.efb423b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.625204bc.css",
+    "static/js/main.efb423b3.js"
+  ]
+}
